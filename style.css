@@ -1,0 +1,109 @@
+/*GENERAL RULES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vh;
+    max-width: fit-content;
+}
+
+/**Page Header**/
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.website-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.website-name > h1 {
+    font-family: 'Amita', cursive;
+    font-weight: bolder;
+}
+
+.website-name > h2 {
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+}
+
+.accordion-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.accordion {
+    transition: 0.5s;
+    text-align: center;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 8px;
+    background-color: burlywood;
+    color: black;
+    border-radius: 10%;
+}
+
+.accordion:after {
+    content: '\02795';
+}
+
+.active:after {
+    content: "\2796";
+  }
+
+.panel {
+    display: none;
+    overflow: hidden;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+/**Main Section**/
+/***Hero Slider***/
+
+/*SMALLER SCREENS*/
+
+@media (max-width:400px) {
+    /*Page Header*/
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .website-name > h1 {
+        font-size: 18px;
+    }
+
+    .website-name > h2 {
+        font-size: 12px;
+    }
+
+    .panel {
+        font-size: 12px;
+    }
+
+}
