@@ -17,28 +17,9 @@
     <meta name="description" content="Tips and tricks on songwriting for everyone.">
 </head>
 <body>
-
-    <!--
-        1. HEADER
-            Logo [link to homepage] - Website name & slogan (2 rows) - Accordion Menu
-        2. MAIN
-            Hero Slider With Popular articles (link to articles in the page)
-            On the same row: Blog navigation (accordion) - About this blog card
-            Latest Article
-            Get Inspired section with articles belonging to that category
-            Songwriting Skills section with articles belonging to that category
-            General Advice section with articles belonging to that category
-        3. FOOTER
-            Created by...
-            About [****link to separate page****]
-            Contact [*link to email*]
-            Credits [****link to separate page****]
-            Terms & Privacy [****link to separate page****]
-    -->
-    
     <!--PAGE HEADER-->
-
     <header class="page-header" id="page-header">
+        <!--Logo & Blog Name-->
         <figure>
             <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo" >
         </figure>
@@ -46,43 +27,190 @@
             <h1>Songwriting Tips</h1>
             <h2>Tips and tricks on songwriting <br> for everyone.</h2>
         </div>
-
+        <!--Accordion menu-->
         <div class="accordion-header-container">
             <button class="accordion" id="accordion-header">Browse</button>
             <div class="panel" id="panel-header">
                 <ul>
                     <li>
-                        <a href="">Popular Articles</a>
+                        <a href="#hero">Popular Articles</a>
                     </li>
                     <li>
-                        <a href="">Latest Article</a>
+                        <a href="#collections">Featured Collections</a>
                     </li>
                     <li>
-                        <a href="">Get Inspired</a> 
+                        <a href="/get-inspired.html">Get Inspired</a> 
                     </li>
                     <li>
-                        <a href="">Songwriting Skills</a>
+                        <a href="/songwriting-skills.html">Songwriting Skills</a>
                     </li>
                     <li>
-                        <a href="">General Advice</a>
+                        <a href="/general-advice.html">General Advice</a>
                     </li>
                 </ul>
             </div>
-        </div>    
+        </div>   
     </header>
+    <!--Divider-->
+    <section class="divider">
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </section>
 
     <!--MAIN SECTION-->
-
     <main>
-        <!--Hero Slider
-        https://www.w3schools.com/w3css/w3css_slideshow.asp
-        -->
+        <!--Divider-->
+        <div class="divider-empty"></div>
+    
+        <!--Hero Slider-->
+        <h3 class="title">Popular Articles</h3>
+        <div class="slider-container" id="hero">
+            <button class="slider-button" onclick="plusDivs(-1)">&#10094;</button>
+            <div class="slides-container">
+                <h6>Get Inspired</h6>
+                <img class="slides" src="/images/johnlennon.jpg" alt="John Lennon">
+                <h3>Five Songwriting Tips Inspired by John Lennon</h3>
+                <button class="read"><a href="">Read</a></button>
+            </div>
+        
+            <div class="slides-container">
+                <h6>Songwriting Skills</h6>
+                <img class="slides" src="/images/acoustic-guitar.jpg" alt="Acoustic Guitar">
+                <h3>Standard vs. Alternate Guitar Tunings: Which Is Best For Your Songwriting?</h3>
+                <button class="read"><a href="">Read</a></button>
+            </div>
 
+            <div class="slides-container">
+                <h6>Songwriting Skills</h6>
+                <img class="slides" src="/images/songwriting.jpg" alt="Songwriting">
+                <h3>Five Easy Steps To Your Next Hit</h3>
+                <button class="read"><a href="">Read</a></button>
+            </div>
+            <button class="slider-button" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
 
+        <!--Divider-->
+        <section class="divider-triangle">
+            <div class="triangle">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!--Featured Collections-->
+             <!--Divider-->
+            <div class="divider-empty"></div>
+        <div class="collections-container">
+            <h3 class="title" id="collections">Featured Collections</h3>
+            <div class="collections-nav">
+                <button class="slider-button" onclick="plusCol(-1)">&#10094;</button>
+                <button class="slider-button" onclick="plusCol(+1)">&#10095;</button>
+            </div>
+    
+            <div class="collection">
+                <img class="collection-img" src="/images/inspiration.jpg" alt="Lightbulb and mind map">
+                <h3 class="collection-name">Get Inspired</h3>
+                <p class="collection-descr">Tips and tricks from the best songwriters around.</p>
+                <button class="read"><a href="/get-inspired.html">Go To Collection</a></button>
+            </div>
+
+            <div class="collection">
+                <img class="collection-img" src="/images/songwriting-2.jpg" alt="Songwriting">
+                <h3 class="collection-name">Songwriting Skills</h3>
+                <p class="collection-descr">All the skills you need to enhance your songwriting.</p>
+                <button class="read"><a href="/songwriting-skills.html">Go To Collection</a></button>
+            </div>
+
+            <div class="collection">
+                <img class="collection-img" src="/images/recording-studio.jpg" alt="Recording Studio">
+                <h3 class="collection-name">General Advice</h3>
+                <p class="collection-descr">Some ideas to enhance your career as an independent artist.</p>
+                <button class="read"><a href="/songwriting-skills.html">Go To Collection</a></button>
+            </div>
+        </div>
+              
+
+        <!--About This Blog-->
+        <h3 class="title">About This Blog</h3>
+        <div class="flip-container">
+            <div class="flip-card">
+                <div class="flip-card-inner"  >
+                    <div class="flip-card-front">
+                        <img src="/images/creative.jpg" alt="Be Creative Sign" width="40%">
+                        <h3 class="flip-title">Our Mission</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="flip-text">Our mission is simple: we want to help you get your uncompleted songs out of the drawer! How? By providing some simple and practical songwriting advice to strenghten your skills and make your songs more exciting.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/images/background.jpg" alt="Acoustic Guitar" width="40%">
+                        <h3 class="flip-title">Our YouTube Channel</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="flip-text">You can find all the content shared on this blog on our <a href="">YouTube channel</a> too. Feel free to subscribe, like, share, and post your comment or question!</p>
+                        <button class="read">Visit Channel</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
+                        <h3 class="flip-title">About The Founder</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="flip-text">Hi! I'm Nicole!</p>
+                        <button class="read">Visit My Website</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <!--PAGE FOOTER-->
     <footer>
-
+        <small>
+            <p>
+                Created by <a href="https://nicolestella.com">Nicole Stella</a> | &copy; 2022
+            </p>
+            <nav class="footer-nav">
+                <div class="row-footer">
+                    <div class="column-footer">
+                        <ul>
+                            <li>
+                                <a href="/about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@nicolestella.com">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column-footer">
+                        <ul>
+                            <li>
+                                <a href="/credits.html">Credits</a>
+                            </li>
+                            <li>
+                                <a href="/terms.html">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </small>
     </footer>
 
 

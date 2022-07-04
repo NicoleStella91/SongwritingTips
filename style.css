@@ -7,8 +7,21 @@
 }
 
 body {
-    width: 100vh;
-    max-width: fit-content;
+    width: 100%
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 /**Page Header**/
@@ -16,8 +29,9 @@ body {
 .page-header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #FCE2B8;
 }
 
 .logo {
@@ -55,35 +69,320 @@ body {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
-    margin-left: 15px;
-    margin-top: 8px;
+    margin: 8px 15px 8px 15px;
     background-color: burlywood;
     color: black;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 .accordion:after {
-    content: '\02795';
+    content: '\2B9F';
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .active:after {
-    content: "\2796";
+    content: "\2B9D";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
   }
 
 .panel {
     display: none;
     overflow: hidden;
-    text-align: right;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
 }
 
-ul {
-    list-style: none;
+/**Divider**/
+
+.divider {
+    position: relative;
 }
 
-/**Main Section**/
+.wave-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 109px;
+}
+
+.wave-divider .shape-fill {
+    fill: #FCE2B8;
+}
+
+.divider-empty {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+/**Main Section - Home Page**/
+
+.section-title {
+    text-align: center;
+    font-family: 'Amita', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 /***Hero Slider***/
+
+.title {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: #FCE2B8;
+}
+
+.slider-button {
+    background-color: burlywood;
+    border-radius: 10%;
+    height: 30px;
+    width: 35px;
+}
+
+.slides-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+
+.slides-container > h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arima', cursive;
+}
+
+.slides-container > h3 {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    margin: 15px auto 15px auto;
+}
+
+.read {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 10%;
+    background-color: burlywood;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.slides {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.divider-triangle {
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.triangle svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+}
+
+.triangle .shape-fill {
+    fill: #FCE2B8;
+}
+
+/****Featured Collections****/
+
+.collections-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-img {
+    max-width: 60vw;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+.collection-name {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px auto 15px auto;
+}
+
+.collection-descr {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.collections-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+/*****About This Blog Flip Cards*****/
+.flip-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #FCE2B8;
+    padding: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 15px;
+    border-radius: 8px;
+  }
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 8px;
+    border: 2px solid coral;
+  }
+
+.flip-title {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px auto 15px auto;
+    font-size: 20px;
+}
+
+.flip-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+ .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+.flip-card-front {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+  }
+  
+.flip-card-back {
+    background-color: burlywood;
+    transform: rotateY(180deg);
+    border-radius: 8px;
+  }
+
+.flip-text {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    padding: 5px;
+}
+
+/**Main Section - About Page - Collapsible Cards**/
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.collapsible {
+    background: burlywood;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background: rgb(221, 148, 53);
+}
+
+.collapsible-content {
+    display: none;
+    overflow: hidden;
+}
+
+/**Page Footer**/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    background-color: burlywood;
+}
+
+.row-footer {
+    display: flex;
+}
+
+.column-footer {
+    flex: 50%;
+}
 
 /*SMALLER SCREENS*/
 
@@ -103,7 +402,219 @@ ul {
     }
 
     .panel {
+        font-size: 10px;
+    }
+
+    /**Main Section**/
+    /***Hero Slider***/
+
+    .title {
+        font-size: 25px;
+    }
+
+    .slides {
+        width: 120px;
+        height: 120px;
+    }
+
+    .slides-container > h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .slides-container > h3 {
+        font-size: 20px;
+    }
+
+    /****Featured Collections****/
+
+    .collection-name {
+        font-size: 20px;
+    }
+
+    .collection-descr {
+        font-size: 15px;
+    }
+
+    .collection-name-img > img {
+        height: 50%;
+        width: 50%;
+    }
+
+}
+
+/*MEDIUM SCREENS*/
+
+@media (min-width:401px) and (max-width:600px) {
+    /*Page Header*/
+    .logo {
+        height: 120px;
+        width: 120px;
+    }
+
+    .website-name > h1 {
+        font-size: 20px;
+    }
+
+    .website-name > h2 {
+        font-size: 14px;
+    }
+
+    .panel {
         font-size: 12px;
     }
 
+    /**Main Section**/
+    /***Hero Slider***/
+
+    .title {
+        font-size: 25px;
+    }
+
+    .slides {
+        width: 300px;
+        height: 300px;
+    }
+
+    .slides-container > h6 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .slides-container > h3 {
+        font-size: 30px;
+    }
+
+    /****Featured Collections****/
+
+    .collection-name {
+        font-size: 25px;
+    }
+
+    .collection-descr {
+        font-size: 20px;
+    }
+
+    .collection-name-img > img {
+        height: 50%;
+        width: 50%;
+    }
+
+
+}
+
+/*MEDIUM SCREENS 2*/
+
+@media (min-width:601px) and (max-width:1000px) {
+    /*Page Header*/
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    .website-name > h1 {
+        font-size: 25px;
+    }
+
+    .website-name > h2 {
+        font-size: 17px;
+    }
+
+    .panel {
+        font-size: 15px;
+    }
+
+    /**Main Section**/
+    /***Hero Slider***/
+
+    .title {
+        font-size: 40px;
+    }
+
+    .slides {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slides-container > h6 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .slides-container > h3 {
+        font-size: 30px;
+    }
+
+    /****Featured Collections****/
+
+    .collection-name {
+        font-size: 25px;
+    }
+
+    .collection-descr {
+        font-size: 20px;
+    }
+
+    .collection-name-img > img {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+/*BIGGER SCREENS*/
+
+@media (min-width:1001px) {
+    /*Page Header*/
+    .logo {
+        height: 200px;
+        width: 200px;
+    }
+
+    .website-name > h1 {
+        font-size: 30px;
+    }
+
+    .website-name > h2 {
+        font-size: 22px;
+    }
+
+    .panel {
+        font-size: 18px;
+    }
+
+    /**Main Section**/
+    /***Hero Slider***/
+
+    .title {
+        font-size: 50px;
+    }
+
+    .slides {
+        width: 500px;
+        height: 500px;
+    }
+
+    .slides-container > h6 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .slides-container > h3 {
+        font-size: 35px;
+    }
+
+    /****Featured Collections****/
+
+    .collection-name {
+        font-size: 30px;
+    }
+
+    .collection-descr {
+        font-size: 25px;
+    }
+
+    .collection-name-img > img {
+        height: 50%;
+        width: 50%;
+    }
 }
