@@ -73,6 +73,7 @@ ul {
     background-color: burlywood;
     color: black;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .accordion:after {
@@ -158,6 +159,7 @@ ul {
     border-radius: 10%;
     height: 30px;
     width: 35px;
+    cursor: pointer;
 }
 
 .slides-container {
@@ -277,6 +279,7 @@ ul {
     perspective: 1000px;
     margin: 15px;
     border-radius: 8px;
+    box-shadow: rgb(97, 50, 50) 0 2px 2px 0;
   }
 
 .flip-card-inner {
@@ -287,7 +290,7 @@ ul {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     border-radius: 8px;
-    border: 2px solid coral;
+    border: 2px solid burlywood;
   }
 
 .flip-title {
@@ -327,6 +330,10 @@ ul {
     background-color: burlywood;
     transform: rotateY(180deg);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 .flip-text {
@@ -335,33 +342,40 @@ ul {
     padding: 5px;
 }
 
-/**Main Section - About Page - Collapsible Cards**/
+.divider-diamond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
 
-.card {
-    width: 300px;
+.diamond {
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
     border: 1px solid black;
-    border-radius: 8px;
+    box-shadow: rgb(92, 85, 83) 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin: 15px;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-.collapsible {
-    background: burlywood;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
+@keyframes color-change {
+    from {background-color: burlywood;}
+    to {background-color: white;}
 }
 
-.active, .collapsible:hover {
-    background: rgb(221, 148, 53);
-}
+/*Links to checklist and course*/
 
-.collapsible-content {
-    display: none;
-    overflow: hidden;
+.link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: burlywood;
+    display: block;
+    margin: 14px auto 14px auto;
 }
 
 /**Page Footer**/
@@ -441,6 +455,12 @@ footer {
         width: 50%;
     }
 
+    /*Links to checklist and course*/
+
+    .link {
+        font-size: 12px;
+        
+    }
 }
 
 /*MEDIUM SCREENS*/
@@ -500,6 +520,12 @@ footer {
         width: 50%;
     }
 
+    /*Links to checklist and course*/
+
+    .link {
+        font-size: 15px;
+
+    }
 
 }
 
@@ -559,6 +585,13 @@ footer {
         height: 50%;
         width: 50%;
     }
+
+    /*Links to checklist and course*/
+
+    .link {
+        font-size: 15px;
+        
+    }
 }
 
 /*BIGGER SCREENS*/
@@ -616,5 +649,12 @@ footer {
     .collection-name-img > img {
         height: 50%;
         width: 50%;
+    }
+
+    /*Links to checklist and course*/
+
+    .link {
+        font-size: 20px;
+        
     }
 }
