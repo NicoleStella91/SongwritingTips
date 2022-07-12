@@ -58,9 +58,9 @@ function showCol(n) {
 //Collapsible cards
 
 var coll = document.getElementsByClassName("collapsible");
-var n;
+var x;
 
-for (n = 0; n < coll.length; n++)
+for (x = 0; x < coll.length; x++)
 {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -72,8 +72,5 @@ for (n = 0; n < coll.length; n++)
     }
   });
 }
-
-
-
 
 
