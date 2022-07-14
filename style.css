@@ -417,6 +417,16 @@ article h5 {
     margin-top: 15px;
 }
 
+article h6 {
+    font-family: 'Arima', cursive;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
+
 article img {
     display: block;
     margin: auto;
@@ -462,6 +472,42 @@ article img {
     padding: 10px;
 }
 
+/*Articles by Date and Author*/
+
+.list-title {
+    font-family: 'Arima', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 25px;
+}
+
+.article-list-header {
+    font-family: 'Arima', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.article-list li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;   
+}
+
+.article-list a:hover {
+    text-decoration: underline;
+}
 
 /**Page Footer**/
 
@@ -555,6 +601,12 @@ article img {
     max-width: 350px;
 }
 
+/*Articles by Date and Author*/
+
+.article-list li {
+    font-size: 13px;
+}
+
 /*MEDIUM SCREENS*/
 
 @media (min-width:401px) and (max-width:600px) {
@@ -624,7 +676,13 @@ article img {
 
     article img {
         max-width: 500px;
-}
+    }
+
+    /*Articles by Date and Author*/
+
+    .article-list li {
+        font-size: 14px;
+    }
 
 }
 
@@ -705,7 +763,14 @@ article img {
 
      article img {
         max-width: 500px;
-}
+    }
+
+    /*Articles by Date and Author*/
+
+    .article-list li {
+        font-size: 16px;
+    }
+
 }
 
 /*BIGGER SCREENS*/
@@ -785,5 +850,12 @@ article img {
 
      article img {
         max-width: 500px;
-}
+    }
+
+    /*Articles by Date and Author*/
+
+    .article-list li {
+        font-size: 20px;
+    }
+
 }
