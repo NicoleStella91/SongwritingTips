@@ -1,0 +1,167 @@
+		<article>
+            <h3>Five Songwriting Tips Inspired by Paul McCartney</h3>
+            <h4>How an authentic love for your craft can get you very far</h4>
+            <nav class="index" id="index">
+               <button class="accordion">Content</button>
+               <div class="panel">
+                <ol>
+                    <li>
+                        <a href="#intro">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#tip1">Tip #1: Be A Detective</a>
+                    </li>
+                    <li>
+                        <a href="#tip2">Tip #2: Do It All In One Take</a>
+                    </li>
+                    <li>
+                        <a href="#tip3">Tip #3: Give Yourself Deadlines</a>
+                    </li>
+                    <li>
+                        <a href="#tip4">Tip #4: Employ Some Symmetry</a>
+                    </li>
+                    <li>
+                        <a href="#tip5">Tip #5: Love Your Craft</a>
+                    </li>
+                </ol>
+               </div>
+            </nav>
+
+            <article class="main-content">
+                <figure>
+                    <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez">
+                    <figcaption>
+                        <p class="caption">
+                            <a href="https://commons.wikimedia.org/wiki/File:Sixto_Rodriguez_Way_Out_West_2013.jpg">Kim Metso</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                        </p>
+                    </figcaption>
+
+                </figure>
+        
+                <section id="intro">
+                    <p>
+                	In celebration of his 80th birthday, I decided to dedicate this week's article to Paul McCartney.
+                	Both as a solo artist and as part of the brilliant songwriting duo Lennon-McCartney, the ex-Beatle gave us some of the most popular and powerful rock and pop songs ever written.
+               	 	Moreover, he was and still is a crazily prolific writer.
+                	His love for songwriting and dedication to the craft seems to be the real spark behind his enormous success, so I thought we could all learn a lot from his advice.
+                	Let's see how Sir McCartney has managed to keep producing tons of amazing tunes in the span of his more-than-sixty-year career. These are five songwriting tips inspired by him.
+                    </p>
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip1">
+                    <h5>Tip #1: Be A Detective</h5>
+		<p>
+                Paul McCartney is generally very open about the songwriting process behind his songs. The way he came up with timeless tunes like Yesterday, Hey Jude, and Let It Be is really not a mystery, as he gladly spoke about his process in several interviews.
+                His masterpiece Eleanor Rigby, in particular, hides a very interesting songwriting insight.
+                <a href="https://www.youtube.com/watch?v=4rJ8CuC_CMI" target="_blank">In this interview</a> (starting at minute 1:40), Paul explains how a simple repeated E minor chord on the piano suggested a melody, which, moreover, suggested some words. A name, in particular. 
+                From that step, he kept working on the lyrics inspired by that melody and he came up with the image of some rice thrown outside a church. What event does this image suggest? Of course, a wedding.
+                From there, he kept building the story, almost as a detective would do, taking the hints from his vision and assembling them into a finished structure.
+                The song became a reflection on the theme of solitude and was partly inspired by the stories Paul would hear from the elderly people in his neighborhood when he was on his Scout's duties.
+                We never know what can trigger the inspiration, but we can surely work as true detectives in deciphering the images, the characters, and the events that our vision suggests.
+                When you have a hard time writing some lyrics, try this approach.
+                Start with just one piece of the puzzle, whether it is a chord, a little motif, a string of words, or a title. Let your imagination guide you in adding some other scattered pieces here and there. At this point, use your detective skills to put those pieces together and complete the jigsaw. You may end up with a pretty decent first draft for your song lyrics in quite a little time. 
+                </p>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip2">
+                    <h5>Tip #2: Do It All In One Take</h5>
+		<p>
+                <a href="https://www.youtube.com/watch?v=3x-T3QKRtxA" target="_blank">In this interview with the BBC</a>, Paul recalls his long songwriting sessions with John Lennon. These sessions would take up several hours and they were pretty productive, as the duo always walked out of them with at least one finished song. Of course, most of the resulting tunes would later need some more work. They were first drafts, really, but they were complete first drafts.
+                I think this is where most songwriters get stuck, especially nowadays.
+                In the new music industry, artists have so much food on their plates that it is quite easy for them to lose focus. It is harder and harder to take three or four hours of our undivided attention and translate them into a complete song draft.
+                We might have other tasks demanding our time or we may simply feel stuck.
+                When The Beatles started becoming famous, their manager Brian Epstein encouraged John and Paul to write as many songs as possible, as they always needed new tunes to be released. In the aforementioned interview, Paul recalls they often had only one or two weeks to complete a whole album. In other words, they had to finish the songs they started. They had no other choice really!
+                This is why those long and uninterrupted songwriting sessions were a necessity.
+                They might not be a necessity for you, especially if you don't have external deadlines to meet. However, I think any songwriter (or creative, really) can benefit from this advice: just sit down and do your thing without interruptions. When you have a complete draft ready, walk out of the session, let your song rest, and then get back to it with fresh ears and a fresh mind.
+                </p>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip3">
+                    <h5>Tip #3: Tip #3: Give Yourself Deadlines</h5>
+		<p>
+                The previous tip leads us to another precious songwriting insight we can inherit from Sir McCartney: deadlines can be some good fuel for our creativity. 
+                If you work under contract, and maybe have a record deal, you won't have to worry too much about this, as producers and labels often give artists a timeline to follow for their next release. 
+                However, if you are completely independent, you may end up postponing your work several times before you consider yourself happy with your results. Or at least happy enough to bring your song to a recording studio.
+                You may not have Brain Epstein inviting you to write a whole album in one week, but you can still give yourself some deadlines to enhance your songwriting process and even beat awful enemies, like perfectionism and creative blocks. 
+                </p>
+                <button class="back"><a href="#article-accordion">Go back to Sections</a></button>
+                <img src="/images/paulmccartney2.jpg" alt="Paul McCartney" class="img-2">
+                <figcaption class="caption"><a href="https://commons.wikimedia.org/wiki/File:Paul_McCartney_Headshot_(cropped).jpg">Eric Koch for Anefo</a>, CC0, via Wikimedia Commons</figcaption>
+                   
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip4">
+                    <h5>Tip #4: Employ Some Symmetry</h5>
+		<p>
+                Like many other rock legends, Paul McCartney didn't have any formal musical training. He still admits he cannot read nor write music, to this day.
+                Some piano lessons he took in his childhood helped him familiarize himself with the instrument and the concepts of chords and scales, but he never deepened his knowledge of Music Theory or Harmony (at least, not in an "academic way").
+                This sort of scattered knowledge led him to a very flexible and improvisational approach to songwriting. This way, he learned some tricks that we can steal from to make our songs more interesting and functional.
+                For example, he took advantage of chord shapes and symmetry to write some of his most popular tunes, such as the already-mentioned Eleanor Rigby.
+                You don't really need to know what chord you are striking, either on your piano or on your guitar, if it sounds good. If you don't even know what chord to strike, you can employ some symmetrical thinking and test the same chord shape in various positions on your instrument. Think about the endless possibilities you have at hand if you apply this concept to chord variations and bass lines!
+                At the same time, you can make things even more interesting by adding some math and structuring your song with a specific pattern in mind, whether it is the number of bars, the number of chords, or the number of notes in a specific passage or the whole song. 
+                Paul often thinks in terms of symmetry when he writes his songs. He often explained he got this approach from Bach, the Beatles' favorite composer.
+                Whether you are a trained musician or not, whenever you are unsure of where to go with your song, try employing some symmetry and some math. The result might be surprising!
+                </p>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip5">
+                    <h5>Tip #5: Love Your Craft</h5>
+ 		<p>
+                Let's face it: we would totally understand if Paul McCartney decided to retire from songwriting today. I mean, after more than sixty years dealing with the craft, who could blame him? 
+                He often jokes about the fact he keeps writing songs, after all these years. On several occasions, he said he is often asked: "You have written so many songs already, why do you keep writing more?"
+                We can learn a lot from his go-to answer: "Because I love it". 
+                Paul McCartney doesn't really know where his songs come from. His approach to songwriting is quite open and flexible, as it is often based on improvisation and glimpses of inspiration. 
+                This non-linear approach helps him keep the craft interesting and fun enough to keep pursuing it, even after more than sixty years. It's like a constant re-discovery of something new. It's a mystery that keeps unraveling itself, but that never gets solved. 
+                To be a great and prolific songwriter, don't focus only on the craft itself. Focus on your passion and find what helps you keep your interest alive. Believe it or not, this might be what makes or breaks your next tunes. 
+                </p>
+                    <hr />
+                    <p>Well people, I hope you found these five songwriting tips inspired by Sixto Rodriguez inspiring enough to get started with your next song.&nbsp;</p>
+                    <p>Don&#39;t forget to grab your <a href="http://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">songwriting checklist</a> for some help in writing it!</p>
+                    <p>Happy songwriting!</p>
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>                
+            </article>
+
+
+            <footer class="article-footer">
+                <p><i class="fa-solid fa-pen-fancy"></i> Written by <a href="/nicole-stella.html" target="_blank">Nicole Stella</a></p>
+                <time datetime="2022-07-11"><i class="fa-solid fa-calendar-day"></i> 11th July 2022</time> <br>
+                <div class="other-articles">
+                    <button class="end-nav"><a href="">Previous Article</a></button>
+                    <button class="end-nav"><a href="">Next Article</a></button>
+                </div>                 
+            </footer>
+
+        </article>
+
+
+
+
+
+
+                
+                
+                
+                
+                
+
+                
+               
+                
+               
+               

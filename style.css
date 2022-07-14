@@ -43,6 +43,7 @@ ul, ol {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    text-align: center;
 
 }
 
@@ -185,8 +186,9 @@ ul, ol {
 
 .read {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
     border-radius: 10%;
     background-color: burlywood;
     display: block;
@@ -261,7 +263,7 @@ ul, ol {
 .flip-card {
     background-color: transparent;
     width: 400px;
-    height: 300px;
+    height: 400px;
     perspective: 1000px;
     margin: 15px;
     border-radius: 8px;
@@ -353,15 +355,33 @@ ul, ol {
     to {background-color: white;}
 }
 
+/*YT Videos*/
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
 /*Links to checklist and course*/
 
+.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .link {
+    height: 200px;
+    width: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     border-radius: 10%;
     background-color: burlywood;
     display: block;
-    margin: 14px auto 14px auto;
+    margin: 20px;    
 }
 
 /*Articles*/
@@ -474,6 +494,7 @@ footer {
 
     .website-name > h1 {
         font-size: 18px;
+        margin-left: 10px;
     }
 
     .website-name > h2 {
@@ -545,6 +566,7 @@ article img {
 
     .website-name > h1 {
         font-size: 20px;
+        margin-left: 20px;
     }
 
     .website-name > h2 {
@@ -617,6 +639,7 @@ article img {
 
     .website-name > h1 {
         font-size: 25px;
+        margin-left: 20px;
     }
 
     .website-name > h2 {
@@ -646,6 +669,14 @@ article img {
 
     .slides-container > h3 {
         font-size: 30px;
+    }
+
+    .slider-nav {
+        margin-right: 10px;
+    }
+
+    .slider-button {
+        margin: 20px;
     }
 
     /****Featured Collections****/
@@ -688,6 +719,7 @@ article img {
 
     .website-name > h1 {
         font-size: 30px;
+        margin-left: 30px;
     }
 
     .website-name > h2 {
@@ -717,6 +749,14 @@ article img {
 
     .slides-container > h3 {
         font-size: 35px;
+    }
+
+    .slider-nav {
+        margin-left: 15px;
+    }
+
+    .slider-button {
+        margin: 25px;
     }
 
     /****Featured Collections****/

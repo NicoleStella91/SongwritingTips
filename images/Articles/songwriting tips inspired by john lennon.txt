@@ -1,0 +1,144 @@
+		<article>
+            <h3>Five Songwriting Tips Inspired by John Lennon</h3>
+            <h4>How accepting your songwriting personality can make your songs better</h4>
+            <nav class="index" id="index">
+               <button class="accordion">Content</button>
+               <div class="panel">
+                <ol>
+                    <li>
+                        <a href="#intro">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#tip1">Tip #1: Follow the flow</a>
+                    </li>
+                    <li>
+                        <a href="#tip2">Tip #2: Stay in the mood</a>
+                    </li>
+                    <li>
+                        <a href="#tip3">Tip #3: Recycle bits and pieces from other songs</a>
+                    </li>
+                    <li>
+                        <a href="#tip4">Tip #4: Study some piano and guitar</a>
+                    </li>
+                    <li>
+                        <a href="#tip5">Tip #5: Embrace your personality</a>
+                    </li>
+                </ol>
+               </div>
+            </nav>
+
+            <article class="main-content">
+                <figure>
+                    <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez">
+                    <figcaption>
+                        <p class="caption">
+                            <a href="https://commons.wikimedia.org/wiki/File:Sixto_Rodriguez_Way_Out_West_2013.jpg">Kim Metso</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                        </p>
+                    </figcaption>
+
+                </figure>
+        
+                <section id="intro">
+                    <p>
+                	This week, I decided to write about one of my favorite artists, and my favorite Beatle: John Lennon.
+			I had to shoo some doubts away before getting started, not because Lennon could be quite a controversial character sometimes, but mostly because it is very hard to find some structure in such a huge personality.
+			When we talk about any member of the Beatles, we are dealing with some legendary material, so it can be very easy to jump to commonplace conclusions or just feed some sort of worshipping. 
+			Instead, I wanted to dig out five practical and useful tips that any young songwriter can learn from John Lennon, surely a legend, but also a man, and an artist like you and me.
+			So I started going through some old interviews and demo recordings, trying to find a pattern in the work and the process behind so many great songs.
+			Here are five tips I came up with. 
+                    </p>
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip1">
+                    <h5>Tip #1: Follow the flow</h5>
+               	    <p>In a <a href="https://www.rollingstone.com/music/music-news/john-lennon-the-rolling-stone-interview-186264/" target="_blank">1968 interview with Rolling Stone</a>, Lennon had to reply to Johnatan Cott&#39;s questions about the many interpretations of his lyrics. Were all those &quot;philosophical analyses&quot; any good?</p>
+		<p>Instead of analyzing the analyses, John said something a bit more enigmatic, but also sensible: &quot;I write lyrics that you don&rsquo;t realize what they mean till after.&quot;</p>
+		<p>Whether we look at John&#39;s contribution to the Beatles&#39; repertoire or at his solo career, we can certainly notice he was right in saying this.&nbsp;</p>
+<p>&quot;It&rsquo;s like abstract art really,&quot; he continued explaining to Cott, &quot;It&rsquo;s just that when you have to think about it to write it, it just means that you labored at it. But when you just&nbsp;say&nbsp;it, man, you know you&rsquo;re saying it, it&rsquo;s a continuous flow.&quot;</p>
+<p>I guess there is no better way to explain how a songwriter&#39;s brain works.&nbsp;</p>
+<p>Whenever we sit down to write some lyrics, let&#39;s try to channel the flow instead of forcing our songs.</p>
+<p>How can we follow the flow?</p>
+<p>Unfortunately, there is no clear answer to this question. This is where the mystery about the creative process lies.&nbsp;</p>
+<p>The truth is: anyone has their own way to experience the flow, and anyone has their own method to enter it.&nbsp;</p>
+<p>When you feel less inspired and less motivated about your songwriting, that&#39;s when it gets harder to find the flow and find what you truly want to say through your song. If that&#39;s the case, there&#39;s no need to force the process. Just do something else for a while, engage in some <a contents="creative activities or techniques" data-link-label="" data-link-type="url" href="https://nicolestella.com/songwritingtips/blog/5-life-saver-creative-techniques-for-songwriters" target="_blank">creative activities or techniques</a>, listen to your favorite music, and recharge your batteries.</p>
+<p>When you get back to your songs, however, make sure to surrender to your intuitions and your feelings. Remember: you can always edit yourself later. At the moment of writing, however, don&#39;t fight the flow. Embrace it!</p>
+                </p>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip2">
+                    <h5>Tip #2: Stay in the mood</h5>
+		<p>Sometimes we get tired of working on a song and we decide to leave it for later.</p>
+<p>While it is essential to have breaks and it is better to change our focus to a different activity rather than forcing the process (as we have just highlighted), interrupting our songwriting process for too long can result in a huge risk: you could lose the mood that triggered the song in the first place.&nbsp;</p>
+<p>This is something John Lennon said to George Harrison, according to a <a contents="1969 interview" data-link-label="" data-link-type="url" href="http://www.beatlesinterviews.org/db69.html" target="_blank">1969 interview</a> with the author of&nbsp;<em>Something:&nbsp;</em>&quot;John gave me a handy tip. He said, &#39;Once you start to write a song, try to finish it straight away while you&#39;re still in the same mood.&#39; Sometimes you go back to it and you&#39;re in a whole different state of mind. So now, I do try to finish them straight away.&quot;</p>
+<p>Staying in the right mood can actually help you find the flow we were talking about in the previous section.&nbsp;</p>
+<p>At the same time, however, I find it is very important to get back to the song in a second moment, with a different state of mind.</p>
+<p>By listening to what we created in a more neutral mood, we can understand whether the tune works or not. However, this is my personal take on the matter. And John would probably hate it.</p>
+                                  
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip3">
+                    <h5>Tip #3: Tip #3: Recycle bits and pieces from other songs</h5>
+		<p>Although Lennon would often stay in the mood and in the flow while writing his songs, he also had another approach.</p>
+<p><a contents="Tom Waits refers to this process as the &quot;Frankenstein approach&quot;" data-link-label="" data-link-type="url" href="https://nicolestella.com/songwritingtips/blog/how-to-write-better-songs-5-songwriting-tips-inspired-by-tom-waits" target="_blank">Tom Waits refers to this process as the &quot;Frankenstein approach&quot;</a>, where you pick bits and pieces of a song and stitch them together with other parts of another song to come up with a completely new tune.</p>
+<p>John Lennon would often do that, and with brilliant results too.</p>
+<p>The first example that comes to mind is&nbsp;<em>Real Love</em>, a song published way after Lennon had died.&nbsp;</p>
+<p>Initially, the song was called&nbsp;<em>Real Life</em>, and it featured completely different melodies and lyrics. The chorus of this song draft, however, became the chorus of <i>Real Love</i>. According to some sources, another unpublished Lennon song,&nbsp;<em>Baby Make Love To You</em>, contributed to the final version of the posthumous 1996 single.&nbsp;</p>
+<p>Another example is <i>Happiness Is A Warm Gun</i>.&nbsp;</p>
+<p>This is a great lesson we can learn as songwriters.</p>
+<p>We can find a missing verse or line in a different tune we have previously drafted. We can take advantage of our songs archive at any time, and give some of our forgotten material a second chance and a new life.&nbsp;</p>
+                   
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip4">
+                    <h5>Tip #4: Study some piano and guitar</h5>
+		<p>Lennon was far from being a virtuoso pianist or guitarist. However, he could approach both of these instruments in interesting ways, finding effective chord progressions and melody lines for his songs.</p>
+<p>By listening to his piano and guitar demos, we can&#39;t help but recognize how his somewhat simple approach to the instruments made a whole difference in his songwriting.</p>
+<p>This is a very practical tip we can all learn from John Lennon: study some piano and some guitar.&nbsp;</p>
+<p>Forget about the sexy solos and crazy piano parts that virtuoso instrumentalists can serve. Focus on the chords and some accompaniment techniques. For example, learn some fingerstyle on the guitar or some left-hand techniques on the piano.&nbsp;</p>
+<p>I find it is very important to be independent when it comes to songwriting. While it is great to collaborate with other musicians, it comes in handy when you&nbsp;<em>don&#39;t have to&nbsp;</em>rely on somebody else to write a tune.</p>
+<p>I would also suggest you try out both instruments. Not only John Lennon, but a lot of other great songwriters, including other members of the Beatles, Bob Dylan, Joni Mitchell, Tom Waits, and many more, can play both the guitar and the piano. This means they can experiment with different songwriting approaches, just by simply switching instruments, if they feel like it.&nbsp;</p>
+<p>This is a great advantage to have, one I feel John Lennon exploited very wisely. You can do it too!</p>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip5">
+                    <h5>Tip #5: Embrace your personality</h5>
+ 		<p>The last tip for today is a bit less practical, but quite important nonetheless.&nbsp;</p>
+<p>John Lennon had a huge personality, and he never forgot to embrace it, in any of his numerous songs.</p>
+<p>It didn&#39;t matter how weird, controversial, or discussed his lyrics could be. He would write about anything: from politics to love, from sex to drug use, without censoring or repressing himself.</p>
+<p>It could be hard to embrace your personality when you are not as brave, confident, and cool as John Lennon, but it is an essential step to find your voice as a songwriter.</p>
+<p>After all, you don&#39;t have to be loud, controversial, or extremely confident. Your personality can also be the opposite.</p>
+<p>What&#39;s important is that you are authentic and that you let your inner world overflow into your songs.</p>
+<p>One way of achieving this is to write about the things you know. Focus on your life experiences and your feelings to find the inspiration for your next song. Of course, you could also end up with a fictional tale. In fact, to make your songs more interesting, <a contents="I encourage you to see them as stories" data-link-label="" data-link-type="url" href="https://nicolestella.com/songwritingtips/blog/how-to-develop-your-story-storytelling-in-songwriting" target="_blank">I encourage you to see them as stories</a>, with defined characters and environments, rather than personal outbursts. However, even when writing a fictional piece, you can take the inspiration and the concepts around it from your own world. This way, you will be authentic and you will let your personality shine through your music.&nbsp;</p>
+                    <hr />
+                    <p>Well people, I hope you found these five songwriting tips inspired by Sixto Rodriguez inspiring enough to get started with your next song.&nbsp;</p>
+                    <p>Don&#39;t forget to grab your <a href="http://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">songwriting checklist</a> for some help in writing it!</p>
+                    <p>Happy songwriting!</p>
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>                
+            </article>
+
+
+            <footer class="article-footer">
+                <p><i class="fa-solid fa-pen-fancy"></i> Written by <a href="/nicole-stella.html" target="_blank">Nicole Stella</a></p>
+                <time datetime="2022-07-11"><i class="fa-solid fa-calendar-day"></i> 11th July 2022</time> <br>
+                <div class="other-articles">
+                    <button class="end-nav"><a href="">Previous Article</a></button>
+                    <button class="end-nav"><a href="">Next Article</a></button>
+                </div>                 
+            </footer>
+
+        </article>

@@ -1,0 +1,98 @@
+<article>
+            <h3>Five Songwriting Tips Inspired by Kurt Cobain</h3>
+            <h4></h4>
+            <nav class="index" id="index">
+               <button class="accordion">Content</button>
+               <div class="panel">
+                <ol>
+                    <li>
+                        <a href="#intro">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#tip1">Tip #1: </a>
+                    </li>
+                    <li>
+                        <a href="#tip2">Tip #2: </a>
+                    </li>
+                    <li>
+                        <a href="#tip3">Tip #3: </a>
+                    </li>
+                    <li>
+                        <a href="#tip4">Tip #4: </a>
+                    </li>
+                    <li>
+                        <a href="#tip5">Tip #5: </a>
+                    </li>
+                </ol>
+               </div>
+            </nav>
+
+            <article class="main-content">
+                <figure>
+                    <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez">
+                    <figcaption>
+                        <p class="caption">
+                            <a href="https://commons.wikimedia.org/wiki/File:Sixto_Rodriguez_Way_Out_West_2013.jpg">Kim Metso</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                        </p>
+                    </figcaption>
+
+                </figure>
+        
+                <section id="intro">
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip1">
+                    <h5>Tip #1: </h5>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip2">
+                    <h5>Tip #2: </h5>
+                    <
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip3">
+                    <h5>Tip #3: </h5>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip4">
+                    <h5>Tip #4: </h5>
+                    
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>
+                <section id="tip5">
+                    <h5>Tip #5: </h5>
+                   
+                    <hr />
+                    <p>Well people, I hope you found these five songwriting tips inspired by Sixto Rodriguez inspiring enough to get started with your next song.&nbsp;</p>
+                    <p>Don&#39;t forget to grab your <a href="http://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">songwriting checklist</a> for some help in writing it!</p>
+                    <p>Happy songwriting!</p>
+                    <button class="up">
+                        <a href="#index">Move Up</a>
+                    </button>
+                </section>                
+            </article>
+
+
+            <footer class="article-footer">
+                <p><i class="fa-solid fa-pen-fancy"></i> Written by <a href="/nicole-stella.html" target="_blank">Nicole Stella</a></p>
+                <time datetime="2022-07-11"><i class="fa-solid fa-calendar-day"></i> 11th July 2022</time> <br>
+                <div class="other-articles">
+                    <button class="end-nav"><a href="">Previous Article</a></button>
+                    <button class="end-nav"><a href="">Next Article</a></button>
+                </div>                 
+            </footer>
+
+        </article>
