@@ -432,6 +432,18 @@ article img {
     margin: auto;
 }
 
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid #fdc161;
+    border-radius: 7%;
+    max-width: fit-content;
+
+}
+
 .caption {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
