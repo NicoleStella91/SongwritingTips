@@ -19,41 +19,68 @@
 <body>
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
-        <!--Logo & Blog Name-->
-
         <figure>
-            <a href="/index.html"><img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo" ></a>
+            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
         </figure>
-        <div class="website-name">
-            <h1><a href="/index.html">Songwriting Tips</a></h1>
-            <h2>Tips and tricks on songwriting <br> for everyone.</h2>
-        </div>
-
-        <!--Accordion menu-->
-
-        <div class="accordion-header-container">
-            <button class="accordion" id="accordion-header">Browse</button>
-            <div class="panel" id="panel-header">
+        <h1 class="web-name">Songwriting Tips</h1>
+        <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
+        <nav class="web-nav">
+            <div class="main-dropdown">
+                <button class="dropbtn-sm"><i class="fa-solid fa-bars"></i></button>
+                <div class="dropdown-content-sm">
+                    <ul class="dropdown-list">
+                        <li>
+                            <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="/get-inspired.html">Get Inspired</a>
+                                    <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                    <a href="/general-advice.html">General Advice</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
+                        </li>
+                        <li>
+                            <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
+                        </li>
+                        <li>
+                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-lg">
                 <ul>
                     <li>
-                        <a href="#hero">Popular Articles</a>
+                        <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
                     </li>
                     <li>
-                        <a href="#collections">Featured Collections</a>
+                        <div class="dropdown">
+                            <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="/get-inspired.html">Get Inspired</a>
+                                <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                <a href="/general-advice.html">General Advice</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="/get-inspired.html">Get Inspired</a> 
+                        <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
                     </li>
                     <li>
-                        <a href="/songwriting-skills.html">Songwriting Skills</a>
+                        <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
                     <li>
-                        <a href="/general-advice.html">General Advice</a>
+                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
                     </li>
                 </ul>
             </div>
-        </div>   
-    </header>
+        </nav>
 
     <!--Divider-->
     <section class="divider">
@@ -69,52 +96,39 @@
 
 
     <!--MAIN SECTION-->
-
-    <!--
-
-        Hero Slider With Latest Articles in the category
-        Flip cards with image, title, and description
-
-
-    -->
-
     <main>
         <!--Divider-->
         <div class="divider-empty"></div>
 
-        <h2 class="list-title">Articles By Date</h2>
+        <h2 class="list-title">Articles Archive</h2>
         
         <nav class="index" id="index">
-            <button class="accordion">Quick Navigation</button>
-            <div class="panel">
-             <ol>
-                 <li>
-                     <a href="#jul2022">July 2022</a>
-                 </li>
-                 <li>
-                     <a href="#jun2022">June 2022</a>
-                 </li>
-                 <li>
-                     <a href="#may2022">May 2022</a>
-                 </li>
-                 <li>
-                     <a href="#mar2022">March 2022</a>
-                 </li>
-                 <li>
-                     <a href="#feb2022">February 2022</a>
-                 </li>
-                <li>
-                    <a href="#2021">2021</a>
-                </li>
-             </ol>
+            <div class="dropdown">
+                <button class="dropbtn-index">Quick Navigation<i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content-index">
+                    <ol>
+                        <li>
+                            <a href="#jul2022">July 2022</a>
+                        </li>
+                        <li>
+                            <a href="#jun2022">June 2022</a>
+                        </li>
+                        <li>
+                            <a href="#may2022">May 2022</a>
+                        </li>
+                        <li>
+                            <a href="#mar2022">March 2022</a>
+                        </li>
+                        <li>
+                            <a href="#feb2022">February 2022</a>
+                        </li>
+                       <li>
+                           <a href="#2021">2021</a>
+                       </li>
+                    </ol>                    
+                </div>
             </div>
-         </nav>
-         <!--Divider-->
-         <section class="divider-diamond">
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-        </section>
+         
         <img class="collection-img" src="/images/creative.jpg" alt="Be Creative Sign">
 
          <section class="article-list">
@@ -202,21 +216,37 @@
                     <a href="/articles/email-marketing-for-musicians.html">Email Marketing For Musicians</a>
                 </li>
             </ol>
-            
          </section>
 
+         <!--Divider-->
+        <section class="divider-diamond">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+        </section>
 
         <section class="links">
-            <div class="link-btn">
-                <button class="link"> Need some help with your new song?
-                    <a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">Download a free <strong>songwriting checklist</strong>!</a>
-                </button>
-                <button class="link"> Looking for a structured songwriting course to enhance your skills?
-                    <a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank">Check out <strong>All I Know About Songwriting</strong>!</a>
-                </button>
-            </div>
-            
-
+            <h3 class="title">Additional Resources</h3>
+            <div class="card-wrapper">
+               
+                <div class="card-container">
+                    <div class="card-inner">
+                        <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" width="100%">
+                            <h3 class="card-title">Songwriting Checklist</h3>
+                            <p class="card-text">Need some help with your new song? Download a free <strong>songwriting checklist</strong>!</p>
+                            <button class="read"><a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">Download</a></button>
+                    </div>
+                </div>
+    
+                <div class="card-container">
+                    <div class="card-inner">
+                        <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" width="100%">
+                            <h3 class="card-title">Songwriting Course</h3>
+                            <p class="card-text">Looking for a structured songwriting course to enhance your skills?Check out <strong>All I Know About Songwriting</strong>!</p>
+                            <button class="read"><a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank">Find Out More</a></button>
+                    </div>
+                </div> 
+            </div>  
         </section>
         
     </main>
@@ -257,5 +287,7 @@
 
     <!--Custom JS-->
     <script src="/script.js"></script>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/1c7f55f4c1.js" crossorigin="anonymous"></script>
 </body>
 </html>

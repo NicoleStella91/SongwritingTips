@@ -19,38 +19,68 @@
 <body>
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
-        <!--Logo & Blog Name-->
         <figure>
-            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo" >
+            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
         </figure>
-        <div class="website-name">
-            <h1>Songwriting Tips</h1>
-            <h2>Tips and tricks on songwriting <br> for everyone.</h2>
-        </div>
-        <!--Accordion menu-->
-        <div class="accordion-header-container">
-            <button class="accordion" id="accordion-header">Browse</button>
-            <div class="panel" id="panel-header">
+        <h1 class="web-name">Songwriting Tips</h1>
+        <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
+        <nav class="web-nav">
+            <div class="main-dropdown">
+                <button class="dropbtn-sm"><i class="fa-solid fa-bars"></i></button>
+                <div class="dropdown-content-sm">
+                    <ul class="dropdown-list">
+                        <li>
+                            <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="/get-inspired.html">Get Inspired</a>
+                                    <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                    <a href="/general-advice.html">General Advice</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
+                        </li>
+                        <li>
+                            <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
+                        </li>
+                        <li>
+                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-lg">
                 <ul>
                     <li>
-                        <a href="#hero">Popular Articles</a>
+                        <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
                     </li>
                     <li>
-                        <a href="#collections">Featured Collections</a>
+                        <div class="dropdown">
+                            <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="/get-inspired.html">Get Inspired</a>
+                                <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                <a href="/general-advice.html">General Advice</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="/get-inspired.html">Get Inspired</a> 
+                        <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
                     </li>
                     <li>
-                        <a href="/songwriting-skills.html">Songwriting Skills</a>
+                        <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
                     <li>
-                        <a href="/general-advice.html">General Advice</a>
+                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
                     </li>
                 </ul>
             </div>
-        </div>   
-    </header>
+        </nav>
     <!--Divider-->
     <section class="divider">
         <div class="wave-divider">
@@ -67,71 +97,91 @@
     <main>
         <!--Divider-->
         <div class="divider-empty"></div>
-    
+
         <!--Hero Slider-->
         <h3 class="title">Popular Articles</h3>
-        <div class="slider-container" id="hero">
-            
-            <div class="slides-container">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
                 <h6>Get Inspired</h6>
-                <img class="slides" src="/images/johnlennon.jpg" alt="John Lennon">
+                <img src="/images/johnlennon.jpg" alt="John Lennon" width="100%">
                 <h3>Five Songwriting Tips Inspired by John Lennon</h3>
                 <button class="read"><a href="/articles/songwriting-tips-inspired-by-john-lennon.html">Read</a></button>
             </div>
         
-            <div class="slides-container">
-                <h6>Songwriting Skills</h6>
-                <img class="slides" src="/images/acoustic-guitar.jpg" alt="Acoustic Guitar">
-                <h3>Standard vs. Alternate Guitar Tunings: Which Is Best For Your Songwriting?</h3>
-                <button class="read"><a href="">Read</a></button>
+            <div class="mySlides fade">
+                <h6>Get Inspired</h6>
+                <img src="/images/johnlennon.jpg" alt="John Lennon" width="100%">
+                <h3>Five Songwriting Tips Inspired by John Lennon</h3>
+                <button class="read"><a href="/articles/songwriting-tips-inspired-by-john-lennon.html">Read</a></button>
             </div>
 
-            <div class="slides-container">
-                <h6>Songwriting Skills</h6>
-                <img class="slides" src="/images/songwriting.jpg" alt="Songwriting">
-                <h3>Five Easy Steps To Your Next Hit</h3>
-                <button class="read"><a href="">Read</a></button>
+            <div class="mySlides fade">
+                <h6>Get Inspired</h6>
+                <img src="/images/johnlennon.jpg" alt="John Lennon" width="100%">
+                <h3>Five Songwriting Tips Inspired by John Lennon</h3>
+                <button class="read"><a href="/articles/songwriting-tips-inspired-by-john-lennon.html">Read</a></button>
             </div>
-            
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
 
-        <div class="slider-nav">
-            <button class="slider-button" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="slider-button" onclick="plusDivs(+1)">&#10095;</button>
-        </div>     
+        <!--Divider-->
+        <section class="divider-diamond">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+        </section>
 
-        <!--Featured Collections-->
+        <!--Latest Articles-->
+        <h3 class="title">Latest Articles</h3>
+        <div class="card-wrapper">
+            <div class="card-container">
+                <div class="card-inner">
+                        <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez" width="40%" class="card-img">
+                        <h3 class="card-title">Five Songwriting Tips Inspired by Sixto Rodriguez</h3>
+                        <p class="card-text">From obscurity to world-wide fame: how Sixto Rodriguez shaped his songwriting style despite adversities</p>
+                        <button class="read"><a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Read</a></button>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-inner">
+                        <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez" width="40%" class="card-img">
+                        <h3 class="card-title">Five Songwriting Tips Inspired by Sixto Rodriguez</h3>
+                        <p class="card-text">From obscurity to world-wide fame: how Sixto Rodriguez shaped his songwriting style despite adversities</p>
+                        <button class="read"><a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Read</a></button>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-inner">
+                        <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez" width="40%" class="card-img">
+                        <h3 class="card-title">Five Songwriting Tips Inspired by Sixto Rodriguez</h3>
+                        <p class="card-text">From obscurity to world-wide fame: how Sixto Rodriguez shaped his songwriting style despite adversities</p>
+                        <button class="read"><a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Read</a></button>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-inner">
+                        <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez" width="40%" class="card-img">
+                        <h3 class="card-title">Five Songwriting Tips Inspired by Sixto Rodriguez</h3>
+                        <p class="card-text">From obscurity to world-wide fame: how Sixto Rodriguez shaped his songwriting style despite adversities</p>
+                        <button class="read"><a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Read</a></button>
+                </div>
+            </div>
+    
             
-        <div class="collections-container">
-            <h3 class="title" id="collections">Featured Collections</h3>
-                
-            <div class="collection">
-                <img class="collection-img" src="/images/inspiration.jpg" alt="Lightbulb and mind map">
-                <h3 class="collection-name">Get Inspired</h3>
-                <p class="collection-descr">Tips and tricks from the best songwriters around.</p>
-                <button class="read"><a href="/get-inspired.html">Go To Collection</a></button>
-            </div>
-
-            <div class="collection">
-                <img class="collection-img" src="/images/songwriting-2.jpg" alt="Songwriting">
-                <h3 class="collection-name">Songwriting Skills</h3>
-                <p class="collection-descr">All the skills you need to enhance your songwriting.</p>
-                <button class="read"><a href="/songwriting-skills.html">Go To Collection</a></button>
-            </div>
-
-            <div class="collection">
-                <img class="collection-img" src="/images/recording-studio.jpg" alt="Recording Studio">
-                <h3 class="collection-name">General Advice</h3>
-                <p class="collection-descr">Some ideas to enhance your career as an independent artist.</p>
-                <button class="read"><a href="/general-advice.html">Go To Collection</a></button>
-            </div>
-
-            <div class="collections-nav">
-                <button class="slider-button" onclick="plusCol(-1)">&#10094;</button>
-                <button class="slider-button" onclick="plusCol(+1)">&#10095;</button>
-            </div>
-
         </div>
+       
+
 
         <!--Divider-->
         <section class="divider-diamond">
@@ -224,5 +274,7 @@
 
     <!--Custom JS-->
     <script src="/script.js"></script>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/1c7f55f4c1.js" crossorigin="anonymous"></script>
 </body>
 </html>

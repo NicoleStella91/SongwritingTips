@@ -19,41 +19,68 @@
 <body>
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
-        <!--Logo & Blog Name-->
-
         <figure>
-            <a href="/index.html"><img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo" ></a>
+            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
         </figure>
-        <div class="website-name">
-            <h1><a href="/index.html">Songwriting Tips</a></h1>
-            <h2>Tips and tricks on songwriting <br> for everyone.</h2>
-        </div>
-
-        <!--Accordion menu-->
-
-        <div class="accordion-header-container">
-            <button class="accordion" id="accordion-header">Browse</button>
-            <div class="panel" id="panel-header">
+        <h1 class="web-name">Songwriting Tips</h1>
+        <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
+        <nav class="web-nav">
+            <div class="main-dropdown">
+                <button class="dropbtn-sm"><i class="fa-solid fa-bars"></i></button>
+                <div class="dropdown-content-sm">
+                    <ul class="dropdown-list">
+                        <li>
+                            <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="/get-inspired.html">Get Inspired</a>
+                                    <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                    <a href="/general-advice.html">General Advice</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
+                        </li>
+                        <li>
+                            <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
+                        </li>
+                        <li>
+                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-lg">
                 <ul>
                     <li>
-                        <a href="#hero">Popular Articles</a>
+                        <a href="/index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
                     </li>
                     <li>
-                        <a href="#collections">Featured Collections</a>
+                        <div class="dropdown">
+                            <button class="dropbtn"><i class="fa-solid fa-folder-open"></i>Blog Categories <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="/get-inspired.html">Get Inspired</a>
+                                <a href="/songwriting-skills.html">Songwriting Skills</a>
+                                <a href="/general-advice.html">General Advice</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="/get-inspired.html">Get Inspired</a> 
+                        <a href="/articles-by-date.html"><i class="fa-solid fa-calendar-days"></i>Articles Archive</a>
                     </li>
                     <li>
-                        <a href="/songwriting-skills.html">Songwriting Skills</a>
+                        <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
                     <li>
-                        <a href="/general-advice.html">General Advice</a>
+                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
                     </li>
                 </ul>
             </div>
-        </div>   
-    </header>
+        </nav>
 
     <!--Divider-->
     <section class="divider">
@@ -76,29 +103,31 @@
             <h3>Five Songwriting Tips Inspired by John Lennon</h3>
             <h4>How accepting your songwriting personality can make your songs better</h4>
             <nav class="index" id="index">
-               <button class="accordion">Content</button>
-               <div class="panel">
-                <ol>
-                    <li>
-                        <a href="#intro">Introduction</a>
-                    </li>
-                    <li>
-                        <a href="#tip1">Tip #1: Follow the flow</a>
-                    </li>
-                    <li>
-                        <a href="#tip2">Tip #2: Stay in the mood</a>
-                    </li>
-                    <li>
-                        <a href="#tip3">Tip #3: Recycle bits and pieces from other songs</a>
-                    </li>
-                    <li>
-                        <a href="#tip4">Tip #4: Study some piano and guitar</a>
-                    </li>
-                    <li>
-                        <a href="#tip5">Tip #5: Embrace your personality</a>
-                    </li>
-                </ol>
-               </div>
+                <div class="dropdown">
+                    <button class="dropbtn-index">Quick Navigation<i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content-index">
+                        <ol>
+                            <li>
+                                <a href="#intro">Introduction</a>
+                            </li>
+                            <li>
+                                <a href="#tip1">Tip #1: Follow the flow</a>
+                            </li>
+                            <li>
+                                <a href="#tip2">Tip #2: Stay in the mood</a>
+                            </li>
+                            <li>
+                                <a href="#tip3">Tip #3: Recycle bits and pieces from other songs</a>
+                            </li>
+                            <li>
+                                <a href="#tip4">Tip #4: Study some piano and guitar</a>
+                            </li>
+                            <li>
+                                <a href="#tip5">Tip #5: Embrace your personality</a>
+                            </li>
+                        </ol>         
+                    </div>
+                </div>
             </nav>
 
             <article class="main-content">
