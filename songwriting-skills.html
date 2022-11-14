@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQWT1ZNPL9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WQWT1ZNPL9');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +17,7 @@
     <link rel="stylesheet" href="/style.css">
     <!--Favicon-->
     <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +30,7 @@
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
         <figure>
-            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
+            <a href="/index.html"><img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo"></a>
         </figure>
         <h1 class="web-name">Songwriting Tips</h1>
         <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
@@ -48,9 +58,6 @@
                         <li>
                             <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                         </li>
-                        <li>
-                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,15 +82,13 @@
                     <li>
                         <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
-                    <li>
-                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                    </li>
                 </ul>
             </div>
         </nav>
+    </header>    
 
     <!--Divider-->
-    <section class="divider">
+    <div class="divider">
         <div class="wave-divider">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -92,46 +97,88 @@
             </svg>
         </div>
 
-    </section>
+    </div>
 
 
     <!--MAIN SECTION-->
-
-    <!--
-
-        Hero Slider With Latest Articles in the category
-        Flip cards with image, title, and description
-
-
-    -->
 
     <main>
         <!--Divider-->
         <div class="divider-empty"></div>
 
         <!--Hero Slider-->
-        <h3 class="title">Latest Articles</h3>
+        <h3 class="title">Songwriting Skills</h3>
+        <h4 class="subtitle">Let's get technical!</h4>
         <div class="slideshow-container">
-
             <div class="mySlides fade">
-                <h6>Get Inspired</h6>
-                <img src="/images/rodriguez.jpg" alt="Sixto Rodriguez" width="100%">
-                <h3>Five Songwriting Tips Inspired by Sixto Rodriguez</h3>
-                <button class="read"><a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Read</a></button>
-            </div>
-        
-            <div class="mySlides fade">
-                <h6>Get Inspired</h6>
-                <img src="/images/paulmccartney.jpg" alt="Paul McCartney" width="100%">
-                <h3>Five Songwriting Tips Inspired by Paul McCartney</h3>
-                <button class="read"><a href="/articles/songwriting-tips-inspired-by-paul-mccartney.html">Read</a></button>
+                <img src="/images/songwriting.jpg" alt="Songwriting">
+                <h5>These Five Songs Will Make You A Better Songwriter</h5>
+                <p>
+                    Since our very first experiments in songwriting, we often tend to find a lot of inspiration from our favorite songs and musical heroes. This is totally okay, even if you will often find people telling you how important it is to develop your own voice and style. Of course, these people are right, as every artist needs to develop their own vision and aesthetics in order to achieve greatness. However, this does not mean we should neglect our passion for a certain genre or the impact this passion has on our own writing.
+                    As our songwriting muscle gets stronger and stronger, as we train it more and more, it can even be a great idea to analyze some of our favorite songs and see what we can learn from them. It is surely one of the most fun ways to study or refresh some topics and techniques we might not completely grasp.
+                    In today's article, I would like to go through a list of songs that I think will help you become a better songwriter. Some of these are simple tunes, while some others are pretty intricate and complex.
+                    No matter how challenging their structure is, they all have something in common: an interesting lesson for us.
+                    Without any further ado, let's dig into the five songs that (I think) will make you a better songwriter.
+                </p>
+                <a href="/articles/these-five-songs-will-make-you-a-better-songwriter.html" class="read">Keep Reading</a>
             </div>
 
             <div class="mySlides fade">
-                <h6>Get Inspired</h6>
-                <img src="/images/johnlennon.jpg" alt="John Lennon" width="100%">
-                <h3>Five Songwriting Tips Inspired by John Lennon</h3>
-                <button class="read"><a href="/articles/songwriting-tips-inspired-by-john-lennon.html">Read</a></button>
+                <img src="/images/songwriting3.jpg" alt="Songwriting">
+                <h5>How To Write A Song: Five Easy Steps To Your Next Hit</h5>
+                <p>
+                    There is no doubt: songwriting is quite a complex task. Whether you are a beginner or a seasoned songwriter, you probably know how difficult it can be to come up with a great song. If you are in the first stage of your songwriting journey, you may feel particularly lost and confused sometimes.
+                    How do I structure my song? How do I adjust the lyrics to the melody? How do I come up with a good story? If you ever had a hard time replying to this kind of question, you are in the right place! In this article, I will guide you through some of the most common steps songwriters follow when writing their hits. Let me warn you, though. As you probably know if you have dabbled in the art of songwriting for quite a while, there are tons of different methods artists employ to compose music. This is why the steps presented in this article are not necessarily a one-size-fits-all solution. However, they can be a useful blueprint for beginner songwriters, artists who feel their song lacks direction and structure, or anyone who wants to experiment with some music composition right now.
+                    It is the blueprint I personally follow when I sit down to write my music and it usually works quite well. It is not an easy formula to write hits. It actually requires quite a lot of hard work, but the reward can be very satisfying in the end.
+                    Are you ready to get started? Enjoy the ride!
+                </p>
+                <a href="/articles/how-to-write-a-song-five-easy-steps.html" class="read">Keep Reading</a>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/songwriting-2.jpg" alt="Songwriting">
+                <h5>How To Write Better Melodies: Five Practical Tips</h5>
+                <p>
+                    There are a lot of potential great songs out there, with beautiful lyrics, some great arrangements, and even interesting harmonic solutions. However, they often lack one crucial element: a great melody. That's a shame because the melody is the element of our song that sticks in the head of the listener. If you want those people to start humming your tunes while they're taking a shower, or dusting their homes, or taking the dog out for a walk, you have to write a balanced and interesting melody. It should be balanced and quite simple otherwise people would not be able to remember it, sing it along, or enjoy it. At the same time, it shouldn't be too repetitive or too basic otherwise, it wouldn't stand out.
+                    As a songwriter, your goal is to get people excited about your music. Using melodies to achieve this goal is a great life skill!
+                    Now, I did write some very bad melodies in my life. So, I've been there before. I know how easy it is to just go with the "lazy" solution instead of working hard on a more interesting or creative motif. The opposite is also true: it is so easy to start overdoing it, finding yourself with bold tunes, that also sound pretty ugly. The following tips come from a lot of hard work and trial-and-error. I hope you find them useful for your songwriting!
+                </p>
+                <a href="/articles/how-to-write-better-melodies.html" class="read">Keep Reading</a>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/book.jpg" alt="Book">
+                <h5>How To Develop Your Story: Storytelling in Songwriting</h5>
+                <p>
+                    What if we saw songs as short stories? After all, isn't songwriting just another form of storytelling? How can we employ storytelling in order to make our songs more interesting?
+                    Some tunes deal with storytelling in a brilliant way. The first example that comes to mind is Tangled Up in Blue, by Bob Dylan. I always associate this song to beat literature. To me, it really sounds like a beat tale. A piece of writing I could read. Of course, we are not Bob Dylan, but we can still learn how to portray a beautiful, well-structured story in the lyrics of our song.
+                    There is no fixed rule: sometimes our story is just vaguely presented. Some other times we dig a bit deeper and we tell more details about it. What's important is that our story, or at least our concept, idea, or message, is clearly present in our minds before or throughout the songwriting process.
+                    Still not convinced? Here are some tips on how to develop the story in your song.
+                </p>
+               <a href="/articles/storytelling-in-songwriting.html" class="read">Keep Reading</a>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/skills.jpg" alt="Girl writing on a notebook">
+                <h5>How To Improve Your Songwriting Skills</h5>
+                <p>
+                    Fabrizio De Andrè, one of my personal heroes and my favorite Italian songwriter, wrote a lot of amazing songs. Yet, when a journalist asked him: Which do you consider your best song?, he simply replied: My best song is yet to come. To give you some context, he was already at the end of his career (and unfortunately, of his life) when this happened.
+                    There's no doubt: songwriting requires a lot of skills, self-discipline, and imagination. There is a lot to learn. A lot to weigh in. A lot to assess. That's why the path towards writing your best song could be very, very long. It could last years or even decades. In fact, it could cover a lifetime. Even some of the greatest songwriters, like Fabrizio De Andrè, never settle. They keep experimenting, aiming at writing something better each time. But while years of experience can be helpful in this process, what can we do to improve our songwriting skills now?
+                    As a not-so-young songwriter, with about fifteen years of experience, I have seen it all. I had creator's blocks, I wrote ugly songs, I released tunes I am frankly no longer happy with, and a lot more struggles. But I also learned so much along the way, while striving to become the songwriter I aspire to be. I hope these five tips will inspire you to sit down, grab your guitar, and start working on your next song.
+                </p>
+                <a href="/articles/improve-your-songwriting-skills.html" class="read">Keep Reading</a>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/structure.jpg" alt="Structure">
+                <h5>How To Structure Your Songs</h5>
+                <p>
+                    I was fifteen when I started writing songs. I had no idea of what I was doing, but it was fun. Most of all, I enjoyed using English to express what I wasn't able to do in Italian, my native language. The fact that I was not fluent in English (at all) never stopped my bold experiments! Of course, none of the songs I wrote back then survived the test of time. Yet, those were precious formative years nonetheless.
+                    What I lacked the most at that time, on top of some serious knowledge of English grammar, was the ability to structure my songs. To be honest, I had this rebel teenage attitude that considered structures as impositions. I was tired of analyzing poems in Literature classes and musical forms at the music school I used to attend. I wanted the freedom to write without caring about structures and forms. Needless to say, I was wrong.
+                    Knowing how to structure your songs is essential. First of all, that knowledge will give you some confidence and some good boundaries to work with. This often increases what we call "inspiration". Secondly, you have to know the rules if you want to break them. Or at least, it is easier to create something innovative and break the preset schemes when you know the basic grammar, in any artistic field.
+                    I hope you're convinced you do need to know how to structure a song if you want to improve your songwriting! If you are, keep reading. This is a little guide on song structures and how to deal with them.
+                </p>
+                <a href="/articles/how-to-structure-your-songs.html" class="read">Keep Reading</a>
             </div>
         
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -141,104 +188,17 @@
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
   
-        <!--Divider-->
-        <section class="divider-diamond">
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-        </section>
-
-        <!--Articles Cards-->
         
-        <h3 class="title">More Articles</h3>
-        <div class="flip-container">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
-                        <h3 class="flip-title">Article Title</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p class="flip-text">Descriptive paragraph</p>
-                        <button class="read">Read</button>
-                    </div>
-                </div>
-            </div>
+        <div class="divider-diamond">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
         </div>
-
-        <!--Divider-->
-        <section class="divider-diamond">
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-        </section>
 
         <section class="links">
             <h3 class="title">Additional Resources</h3>
@@ -246,19 +206,19 @@
                
                 <div class="card-container">
                     <div class="card-inner">
-                        <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" width="100%">
-                            <h3 class="card-title">Songwriting Checklist</h3>
+                        <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" class="card-img">
+                            <h4 class="card-title">Songwriting Checklist</h4>
                             <p class="card-text">Need some help with your new song? Download a free <strong>songwriting checklist</strong>!</p>
-                            <button class="read"><a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">Download</a></button>
+                            <a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank" class="read">Download</a>
                     </div>
                 </div>
     
                 <div class="card-container">
                     <div class="card-inner">
-                        <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" width="100%">
-                            <h3 class="card-title">Songwriting Course</h3>
+                        <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" class="card-img">
+                            <h4 class="card-title">Songwriting Course</h4>
                             <p class="card-text">Looking for a structured songwriting course to enhance your skills?Check out <strong>All I Know About Songwriting</strong>!</p>
-                            <button class="read"><a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank">Find Out More</a></button>
+                            <a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank" class="read">Find Out More</a>
                     </div>
                 </div> 
             </div>  
@@ -268,10 +228,20 @@
 
     <!--PAGE FOOTER-->
     <footer>
-        <small>
-            <p>
-                Created by <a href="https://nicolestella.com" target="_blank">Nicole Stella</a> | &copy; 2022
-            </p>
+        <p class="share">Share this blog</p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_linkedin"></a>
+                        <a class="a2a_button_whatsapp"></a>
+                        <a class="a2a_button_pinterest"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+            <p>Created by <a href="https://nicolestella.com">Nicole Stella</a> | &copy; 2022</p>
             <nav class="footer-nav">
                 <div class="row-footer">
                     <div class="column-footer">
@@ -296,8 +266,7 @@
                     </div>
                 </div>
             </nav>
-        </small>
-    </footer>
+        </footer>
 
 
     <!--Custom JS-->

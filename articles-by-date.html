@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQWT1ZNPL9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WQWT1ZNPL9');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +17,7 @@
     <link rel="stylesheet" href="/style.css">
     <!--Favicon-->
     <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +30,7 @@
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
         <figure>
-            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
+            <a href="/index.html"><img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo"></a>
         </figure>
         <h1 class="web-name">Songwriting Tips</h1>
         <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
@@ -48,9 +58,6 @@
                         <li>
                             <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                         </li>
-                        <li>
-                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,15 +82,13 @@
                     <li>
                         <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
-                    <li>
-                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                    </li>
                 </ul>
             </div>
         </nav>
+    </header>
 
     <!--Divider-->
-    <section class="divider">
+    <div class="divider">
         <div class="wave-divider">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -92,7 +97,7 @@
             </svg>
         </div>
 
-    </section>
+    </div>
 
 
     <!--MAIN SECTION-->
@@ -100,13 +105,16 @@
         <!--Divider-->
         <div class="divider-empty"></div>
 
-        <h2 class="list-title">Articles Archive</h2>
+        <h3 class="list-title">Articles Archive</h3>
         
         <nav class="index" id="index">
             <div class="dropdown">
                 <button class="dropbtn-index">Quick Navigation<i class="fa-solid fa-caret-down"></i></button>
                 <div class="dropdown-content-index">
                     <ol>
+                        <li>
+                            <a href="#aug2022">August 2022</a>
+                        </li>
                         <li>
                             <a href="#jul2022">July 2022</a>
                         </li>
@@ -128,71 +136,79 @@
                     </ol>                    
                 </div>
             </div>
+        </nav>
          
         <img class="collection-img" src="/images/creative.jpg" alt="Be Creative Sign">
 
          <section class="article-list">
-            <h3 class="article-list-header" id="jul2022">July 2022</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="aug2022">August 2022</h4>
+            <a class="up" href="#index">Up</a>
+            <ol>
+                <li>
+                    <a href="/articles/songwriting-tips-inspired-by-leonard-cohen.html">Five Songwriting Tips Inspired by Leonard Cohen</a>
+                </li>
+            </ol>
+            <h4 class="article-list-header" id="jul2022">July 2022</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
                     <a href="/articles/songwriting-tips-inspired-by-rodriguez.html">Five Songwriting Tips Inspired by Sixto Rodriguez</a>
                 </li>
                 <li>
-                    <a href="#">These Five Songs Will Make You A Better Songwriter</a>
+                    <a href="/articles/these-five-songs-will-make-you-a-better-songwriter.html">These Five Songs Will Make You A Better Songwriter</a>
                 </li>
             </ol>
-            <h3 class="article-list-header" id="jun2022">June 2022</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="jun2022">June 2022</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
                     <a href="/articles/songwriting-tips-inspired-by-paul-mccartney.html">Five Songwriting Tips Inspired by Paul McCartney</a>
                 </li>
                 <li>
-                    <a href="#">Standard vs Alternate Guitar Tuning: What’s Best For Your Songwriting?</a>
+                    <a href="/articles/standard-vs-alternate-guitar-tuning.html">Standard vs Alternate Guitar Tuning: What’s Best For Your Songwriting?</a>
                 </li>
             </ol>
-            <h3 class="article-list-header" id="may2022">May 2022</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="may2022">May 2022</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
-                    <a href="#">How To Write A Song: Five Easy Steps To Your Next Hit</a>
+                    <a href="/articles/how-to-write-a-song-five-easy-steps.html">How To Write A Song: Five Easy Steps To Your Next Hit</a>
                 </li>
             </ol>
-            <h3 class="article-list-header" id="mar2022">March 2022</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="mar2022">March 2022</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
                     <a href="/articles/songwriting-tips-inspired-by-john-lennon.html">Five Songwriting Tips Inspired by John Lennon</a>
                 </li>
                 <li>
-                    <a href="#">Five Life-Saver Creative Techniques For Songwriters</a>
+                    <a href="/articles/creative-techniques-for-songwriters.html">Five Life-Saver Creative Techniques For Songwriters</a>
                 </li>
                 <li>
                     <a href="/articles/songwriting-tips-inspired-by-kurt-cobain.html">Five Songwriting Tips Inspired by Kurt Cobain</a>
                 </li>
             </ol>
-            <h3 class="article-list-header" id="feb2022">February 2022</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="feb2022">February 2022</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
-                    <a href="#">Five Alternate Guitar Tunings Inspired by Joni Mitchell</a>
+                    <a href="/articles/guitar-tunings-inspired-by-joni-mitchell.html">Five Alternate Guitar Tunings Inspired by Joni Mitchell</a>
                 </li>
             </ol>
-            <h3 class="article-list-header" id="2021">2021</h3>
-            <a class="up" href="#index">&#11165;</a>
+            <h4 class="article-list-header" id="2021">2021</h4>
+            <a class="up" href="#index">Up</a>
             <ol>
                 <li>
-                    <a href="#">Five Songwriting Tips Inspired by Tom Waits</a>
+                    <a href="/articles/songwriting-tips-inspired-by-tom-waits.html">Five Songwriting Tips Inspired by Tom Waits</a>
                 </li>
                 <li>
-                    <a href="#">How To Overcome Songwriting Blocks: Six Practical Tips</a>
+                    <a href="/articles/how-to-overcome-songwriting-blocks.html">How To Overcome Songwriting Blocks: Six Practical Tips</a>
                 </li>
                 <li>
-                    <a href="#">How To Write Better Melodies: Five Practical Tips</a>
+                    <a href="/articles/how-to-write-better-melodies.html">How To Write Better Melodies: Five Practical Tips</a>
                 </li>
                 <li>
-                    <a href="#">How To Develop Your Story: Storytelling in Songwriting</a>
+                    <a href="/articles/storytelling-in-songwriting.html">How To Develop Your Story: Storytelling in Songwriting</a>
                 </li>
                 <li>
                     <a href="/articles/why-is-songwriting-so-hard.html">Why Is Songwritng So Hard?</a>
@@ -219,31 +235,30 @@
          </section>
 
          <!--Divider-->
-        <section class="divider-diamond">
+        <div class="divider-diamond">
             <div class="diamond"></div>
             <div class="diamond"></div>
             <div class="diamond"></div>
-        </section>
+        </div>
 
         <section class="links">
             <h3 class="title">Additional Resources</h3>
-            <div class="card-wrapper">
-               
+            <div class="card-wrapper"> 
                 <div class="card-container">
                     <div class="card-inner">
-                        <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" width="100%">
-                            <h3 class="card-title">Songwriting Checklist</h3>
+                        <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" class="link-img">
+                            <h4 class="card-title">Songwriting Checklist</h4>
                             <p class="card-text">Need some help with your new song? Download a free <strong>songwriting checklist</strong>!</p>
-                            <button class="read"><a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">Download</a></button>
+                            <a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank" class="read">Download</a>
                     </div>
                 </div>
     
                 <div class="card-container">
                     <div class="card-inner">
-                        <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" width="100%">
-                            <h3 class="card-title">Songwriting Course</h3>
+                        <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" class="link-img">
+                            <h4 class="card-title">Songwriting Course</h4>
                             <p class="card-text">Looking for a structured songwriting course to enhance your skills?Check out <strong>All I Know About Songwriting</strong>!</p>
-                            <button class="read"><a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank">Find Out More</a></button>
+                            <a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank" class="read">Find Out More</a>
                     </div>
                 </div> 
             </div>  
@@ -253,10 +268,20 @@
 
     <!--PAGE FOOTER-->
     <footer>
-        <small>
-            <p>
-                Created by <a href="https://nicolestella.com" target="_blank">Nicole Stella</a> | &copy; 2022
-            </p>
+        <p class="share">Share this blog</p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_linkedin"></a>
+                        <a class="a2a_button_whatsapp"></a>
+                        <a class="a2a_button_pinterest"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+            <p>Created by <a href="https://nicolestella.com">Nicole Stella</a> | &copy; 2022</p>
             <nav class="footer-nav">
                 <div class="row-footer">
                     <div class="column-footer">
@@ -281,8 +306,7 @@
                     </div>
                 </div>
             </nav>
-        </small>
-    </footer>
+        </footer>
 
 
     <!--Custom JS-->

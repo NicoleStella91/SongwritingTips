@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQWT1ZNPL9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WQWT1ZNPL9');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +17,7 @@
     <link rel="stylesheet" href="/style.css">
     <!--Favicon-->
     <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +30,7 @@
     <!--PAGE HEADER-->
     <header class="page-header" id="page-header">
         <figure>
-            <img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo">
+            <a href="/index.html"><img src="/images/logo.png" alt="Songwriting Tips Logo" class="logo"></a>
         </figure>
         <h1 class="web-name">Songwriting Tips</h1>
         <h2 class="web-slogan">Tips and tricks on songwriting for everyone.</h2>
@@ -48,9 +58,6 @@
                         <li>
                             <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                         </li>
-                        <li>
-                            <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,14 +82,12 @@
                     <li>
                         <a href="/about.html"><i class="fa-solid fa-circle-info"></i>About</a>
                     </li>
-                    <li>
-                        <a href="/terms.html"><i class="fa-solid fa-scale-balanced"></i>Terms</a>
-                    </li>
                 </ul>
             </div>
         </nav>
+    </header>    
     <!--Divider-->
-    <section class="divider">
+    <div class="divider">
         <div class="wave-divider">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -91,7 +96,7 @@
             </svg>
         </div>
 
-    </section>
+    </div>
 
 
     <!--MAIN SECTION-->
@@ -104,7 +109,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="/images/guitar-2.jpg" alt="Acoustic Guitar" width="40%">
+                        <img src="/images/guitar-2.jpg" alt="Acoustic Guitar" class="flip-img">
                         <h3 class="flip-title">What Is This Blog About?</h3>
                     </div>
                     <div class="flip-card-back">
@@ -118,11 +123,11 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="/images/book.jpg" alt="Open book" width="40%">
+                        <img src="/images/book.jpg" alt="Open book" class="flip-img">
                         <h3 class="flip-title">How To Navigate This Blog</h3>
                     </div>
                     <div class="flip-card-back">
-                        <p class="flip-text">You can browse our articles either by collection, <a href="/articles-by-author.html">author</a>, or <a href="/articles-by-date.html">date</a>. <br>
+                        <p class="flip-text">You can browse our articles either by collection or <a href="/articles-by-date.html">date</a>. <br>
                         <a href="/get-inspired.html"><strong>Get Inspired</strong></a> is a collection of articles with songwriting tips and tricks inspired by some great artists. <br>
                         <a href="/songwriting-skills.html"><strong>Songwriting Skills</strong></a> presents more "technical" articles to help you deal with song structure, music theory, and more. <br> 
                         Lastly, <a href="/general-advice.html"><strong>General Advice</strong></a> offers some tips on how to work as an independent artist. </p>
@@ -133,7 +138,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" width="40%">
+                        <img src="/images/nicolestella.jpg" alt="Nicole Stella" class="flip-img">
                         <h3 class="flip-title">About The Founder</h3>
                     </div>
                     <div class="flip-card-back">
@@ -151,7 +156,7 @@
         </section>
 
         <!--Divider-->
-        <section class="divider">
+        <div class="divider">
             <div class="wave-divider">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -160,7 +165,7 @@
                 </svg>
             </div>
 
-        </section>
+        </div>
             
         <section class="links">
             <!--Divider-->
@@ -170,19 +175,19 @@
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                    <h6>Songwriting Checklist</h6>
-                    <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar" width="100%">
-                    <h3>Need some help with your new song?</h3>
+                    <h4>Songwriting Checklist</h4>
+                    <img src="/images/guitar-playing.jpg" alt="Person playing a brown acoustic guitar">
+                    <p class="subtitle2">Need some help with your new song?</p>
                     <p>Download a free <strong>songwriting checklist</strong>!</p>
-                    <button class="read"><a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank">Download</a></button>
+                    <a href="https://creative-author-7529.ck.page/5b2af1d1e0" target="_blank" class="read">Download</a>
                 </div>
             
                 <div class="mySlides fade">
-                    <h6>Songwriting Course</h6>
-                    <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table" width="100%">
-                    <h3>Looking for a structured songwriting course to enhance your skills?</h3>
+                    <h4>Songwriting Course</h4>
+                    <img src="/images/notebook2.jpg" alt="Ball Point Pen on Opened Notebook on Wooden Table">
+                    <p class="subtitle2">Looking for a structured songwriting course to enhance your skills?</p>
                     <p>Check out <strong>All I Know About Songwriting</strong>!</p>
-                    <button class="read"><a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank">Find Out More</a></button>
+                    <a href="https://independent-musician-academy.teachable.com/p/all-i-know-about-songwriting" target="_blank" class="read">Find Out More</a>
                 </div>            
         
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -198,10 +203,20 @@
 
     <!--PAGE FOOTER-->
     <footer>
-        <small>
-            <p>
-                Created by <a href="https://nicolestella.com" target="_blank">Nicole Stella</a> | &copy; 2022
-            </p>
+        <p class="share">Share this blog</p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_linkedin"></a>
+                        <a class="a2a_button_whatsapp"></a>
+                        <a class="a2a_button_pinterest"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+            <p>Created by <a href="https://nicolestella.com">Nicole Stella</a> | &copy; 2022</p>
             <nav class="footer-nav">
                 <div class="row-footer">
                     <div class="column-footer">
@@ -226,8 +241,7 @@
                     </div>
                 </div>
             </nav>
-        </small>
-    </footer>
+        </footer>
 
 
     <!--Custom JS-->
